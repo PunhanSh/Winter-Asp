@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TUF DASH\\Desktop\\WinterShop\\WinterShop\\WinterShop.csproj": {}
+    "C:\\Users\\TUF DASH\\Desktop\\WinterShopp\\WinterShop\\WinterShop\\WinterShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TUF DASH\\Desktop\\WinterShop\\WinterShop\\WinterShop.csproj": {
+    "C:\\Users\\TUF DASH\\Desktop\\WinterShopp\\WinterShop\\WinterShop\\WinterShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TUF DASH\\Desktop\\WinterShop\\WinterShop\\WinterShop.csproj",
+        "projectUniqueName": "C:\\Users\\TUF DASH\\Desktop\\WinterShopp\\WinterShop\\WinterShop\\WinterShop.csproj",
         "projectName": "WinterShop",
-        "projectPath": "C:\\Users\\TUF DASH\\Desktop\\WinterShop\\WinterShop\\WinterShop.csproj",
+        "projectPath": "C:\\Users\\TUF DASH\\Desktop\\WinterShopp\\WinterShop\\WinterShop\\WinterShop.csproj",
         "packagesPath": "C:\\Users\\TUF DASH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TUF DASH\\Desktop\\WinterShop\\WinterShop\\obj\\",
+        "outputPath": "C:\\Users\\TUF DASH\\Desktop\\WinterShopp\\WinterShop\\WinterShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TUF DASH\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,16 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
