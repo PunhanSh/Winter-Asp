@@ -26,8 +26,15 @@ using WinterShop.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\TUF DASH\Desktop\WinterShopp\WinterShop\WinterShop\Views\_ViewImports.cshtml"
+using WinterShop.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"ce00e64f61482353f8b92babec494f534d033f32", @"/Views/Tracking/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6a00458f4a90ca24a7d11f03c7e80a86b42bd1ed", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1cfa4d218de29d7f341d62525103e81d13cacfb9", @"/Views/_ViewImports.cshtml")]
     public class Views_Tracking_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("row tracking_form"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -85,7 +92,7 @@ using WinterShop.Models;
                         to you on your receipt and in the confirmation email you should have received.
                     </p>
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce00e64f61482353f8b92babec494f534d033f325265", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ce00e64f61482353f8b92babec494f534d033f325460", async() => {
                 WriteLiteral(@"
                         <div class=""col-md-12 form-group"">
                             <input type=""text"" class=""form-control"" id=""order"" name=""order"" placeholder=""Order ID"">

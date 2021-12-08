@@ -26,8 +26,15 @@ using WinterShop.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\TUF DASH\Desktop\WinterShopp\WinterShop\WinterShop\Views\_ViewImports.cshtml"
+using WinterShop.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c280b3581f29f7eba660a87aed1158e134b58420", @"/Views/SingleBlog/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6a00458f4a90ca24a7d11f03c7e80a86b42bd1ed", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1cfa4d218de29d7f341d62525103e81d13cacfb9", @"/Views/_ViewImports.cshtml")]
     public class Views_SingleBlog_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("form-contact comment_form"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -306,7 +313,7 @@ using WinterShop.Models;
                 <div class=""comment-form"">
                     <h4>Leave a Reply</h4>
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c280b3581f29f7eba660a87aed1158e134b5842018682", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c280b3581f29f7eba660a87aed1158e134b5842018877", async() => {
                 WriteLiteral(@"
                         <div class=""row"">
                             <div class=""col-12"">
@@ -352,7 +359,7 @@ using WinterShop.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </div>\r\n            </div>\r\n            <div class=\"col-lg-4\">\r\n                <div class=\"blog_right_sidebar\">\r\n                    <aside class=\"single_sidebar_widget search_widget\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c280b3581f29f7eba660a87aed1158e134b5842022015", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c280b3581f29f7eba660a87aed1158e134b5842022210", async() => {
                 WriteLiteral(@"
                             <div class=""form-group"">
                                 <div class=""input-group mb-3"">
@@ -550,7 +557,7 @@ using WinterShop.Models;
                     <aside class=""single_sidebar_widget newsletter_widget"">
                         <h4 class=""widget_title"">Newsletter</h4>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c280b3581f29f7eba660a87aed1158e134b5842032668", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c280b3581f29f7eba660a87aed1158e134b5842032863", async() => {
                 WriteLiteral(@"
                             <div class=""form-group"">
                                 <input type=""email"" class=""form-control"" onfocus=""this.placeholder = ''"" onblur=""this.placeholder = 'Enter email'"" placeholder='Enter email' required>

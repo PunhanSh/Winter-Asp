@@ -26,8 +26,15 @@ using WinterShop.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\TUF DASH\Desktop\WinterShopp\WinterShop\WinterShop\Views\_ViewImports.cshtml"
+using WinterShop.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"8023b0f26fdce7a50d6088c13baa91d50dad3da1", @"/Views/Blog/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6a00458f4a90ca24a7d11f03c7e80a86b42bd1ed", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1cfa4d218de29d7f341d62525103e81d13cacfb9", @"/Views/_ViewImports.cshtml")]
     public class Views_Blog_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("action", new global::Microsoft.AspNetCore.Html.HtmlString("#"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -235,7 +242,7 @@ using WinterShop.Models;
                 <div class=""blog_right_sidebar"">
                     <aside class=""single_sidebar_widget search_widget"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8023b0f26fdce7a50d6088c13baa91d50dad3da113316", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8023b0f26fdce7a50d6088c13baa91d50dad3da113511", async() => {
                 WriteLiteral(@"
                             <div class=""form-group"">
                                 <div class=""input-group mb-3"">
@@ -428,7 +435,7 @@ using WinterShop.Models;
                     <aside class=""single_sidebar_widget newsletter_widget"">
                         <h4 class=""widget_title"">Newsletter</h4>
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8023b0f26fdce7a50d6088c13baa91d50dad3da123892", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8023b0f26fdce7a50d6088c13baa91d50dad3da124087", async() => {
                 WriteLiteral(@"
                             <div class=""form-group"">
                                 <input type=""email"" class=""form-control"" onfocus=""this.placeholder = ''"" onblur=""this.placeholder = 'Enter email'"" placeholder='Enter email' required>

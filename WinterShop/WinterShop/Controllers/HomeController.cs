@@ -5,33 +5,30 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using WinterShop.DataDbContext;
 using WinterShop.Models;
+using WinterShop.ViewModel;
 
 namespace WinterShop.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly DataDb _datadb;
+        public HomeController(DataDb dataDb)
         {
-            _logger = logger;
+            _datadb = dataDb;
         }
-
         public IActionResult Index()
         {
-            return View();
-        }
+            VmHome vmHome = new VmHome()
+            {
+                Setting = _datadb.Settings.FirstOrDefault(),
+                HomeBanner = _datadb.HomeBanners.FirstOrDefault(),
+                PageFrees = _datadb.PageFrees.ToList(),
+                InstagramFilters = _datadb.InstagramFilters.ToList()
+            };
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(vmHome);
         }
     }
 }
