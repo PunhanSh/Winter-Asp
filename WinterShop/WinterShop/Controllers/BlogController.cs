@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WinterShop.DataDbContext;
+using WinterShop.ViewModel;
 
 namespace WinterShop.Controllers
 {
@@ -16,7 +17,13 @@ namespace WinterShop.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            VmBlog vmBlog = new VmBlog()
+            {
+                PageFrees = _datadb.PageFrees.ToList(),
+                InstagramFilters = _datadb.InstagramFilters.ToList()
+
+            };
+              return View(vmBlog);
         }
     }
 }

@@ -3,10 +3,12 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WinterShop.DataDbContext;
-using WinterShop.Models;
 using WinterShop.ViewModel;
 
 namespace WinterShop.Controllers

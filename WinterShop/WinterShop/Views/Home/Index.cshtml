@@ -196,22 +196,6 @@
     </div>
 </section>
 
-
-<section class="shipping_details section_padding">
-    <div class="container">
-        <div class="row">
-            @foreach (var item in Model.PageFrees)
-            {
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single_shopping_details">
-                        <img src="img/icon/@item.Icon" alt="">
-                        <h4>@item.Name  gfrgrdgrdgrdgrdgrd</h4>
-                        <p>@item.Content</p>
-                    </div>
-                </div>
-            }
-        </div>
-    </div>
-</section>
+@await Component.InvokeAsync("VcPageFree")
 
 <partial name="_InstagramPartial" model="Model.InstagramFilters"/>
